@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)https://tatsu-lab.github.io/gpt_paper_assistant/ -->
+<html data-color-mode="light" data-light-theme="light" data-dark-theme="dark" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>tatsu-lab/gpt_paper_assistant</title><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="description" content="GPT4 based personalized ArXiv paper assistant bot"><link rel="canonical" href="https://tatsu-lab.github.io/gpt_paper_assistant/"><meta property="og:title" content="tatsu-lab/gpt_paper_assistant"><meta property="og:type" content="website"><meta property="og:url" content="https://tatsu-lab.github.io/gpt_paper_assistant/"><meta property="og:description" content="GPT4 based personalized ArXiv paper assistant bot"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="tatsu-lab/gpt_paper_assistant"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="tatsu-lab/gpt_paper_assistant"><meta name="twitter:description" content="GPT4 based personalized ArXiv paper assistant bot"><link class="js-site-favicon" rel="alternate icon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png" media="(prefers-color-scheme: light)"><link class="js-site-favicon" rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" media="(prefers-color-scheme: light)"><link class="js-site-favicon" rel="alternate icon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png" media="(prefers-color-scheme: dark)"><link class="js-site-favicon" rel="icon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon-dark.svg" media="(prefers-color-scheme: dark)"><link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000"><link href="./index_files/index.css" rel="stylesheet"></head><body><div class="container-lg px-3 my-5 markdown-body"><div class="position-relative"><span class="profile-color-modes-toggle js-promo-color-modes-toggle" tabindex="0" aria-label="Toggle dark mode" aria-checked="true" role="checkbox"><div class="profile-color-modes-toggle-track" div=""></div><div class="profile-color-modes-toggle-thumb"><svg style="fill: var(--color-scale-yellow-0); margin: 7px 0 0 7px;" aria-hidden="true" width="14" height="13" viewBox="0 0 14 13" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z"></path></svg></div></span></div><script type="text/javascript">(function() {
+  var MODE_KEY = 'markdown_to_pages_dark_mode';
+  function toggleMode() {
+    var mode = document.documentElement.getAttribute('data-color-mode') === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-color-mode', mode);
+    localStorage.setItem(MODE_KEY, mode);
+  }
+  var mode = localStorage.getItem(MODE_KEY);
+  if (mode == null) {
+    var query = window.matchMedia('(prefers-color-scheme: dark)');
+    mode = query.matches ? 'dark' : 'light';
+  }
+  document.documentElement.setAttribute('data-color-mode', mode);
+  document.querySelector('.profile-color-modes-toggle').onclick = toggleMode;
+})();</script><div><h1><a id="user-content-personalized-daily-arxiv-papers-02092024" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#personalized-daily-arxiv-papers-02092024"><span aria-hidden="true" class="octicon octicon-link"></span></a>Personalized Daily Arxiv Papers 02/09/2024</h1>
+<p>Total relevant papers: 6</p>
+<p>Paper selection prompt and criteria at the bottom</p>
+<p>Table of contents with paper titles:</p>
+<ol start="0">
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link0">Personalized Language Modeling from Personalized Human Feedback</a>
+<strong>Authors:</strong> Xinyu Li, Zachary C. Lipton, Liu Leqi</p>
+</li>
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link1">A Closer Look at the Limitations of Instruction Tuning</a>
+<strong>Authors:</strong> Sreyan Ghosh, Chandra Kiran Reddy Evuru, Sonal Kumar, Ramaneswaran S, Deepali Aneja, Zeyu Jin, Ramani Duraiswami, Dinesh Manocha</p>
+</li>
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link2">In-Context Principle Learning from Mistakes</a>
+<strong>Authors:</strong> Tianjun Zhang, Aman Madaan, Luyu Gao, Steven Zheng, Swaroop Mishra, Yiming Yang, Niket Tandon, Uri Alon</p>
+</li>
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link3">A Survey on Data Selection for LLM Instruction Tuning</a>
+<strong>Authors:</strong> Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu</p>
+</li>
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link4">Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs</a>
+<strong>Authors:</strong> Xuandong Zhao, Lei Li, Yu-Xiang Wang</p>
+</li>
+<li>
+<p><a href="https://tatsu-lab.github.io/gpt_paper_assistant/#link5">NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning</a>
+<strong>Authors:</strong> Yufeng Zhao, Yoshihiro Sakai, Naoya Inoue</p>
+</li>
+</ol>
+<hr>
+<h2><a id="user-content-0-personalized-language-modeling-from-personalized-human-feedback-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#0-personalized-language-modeling-from-personalized-human-feedback-"><span aria-hidden="true" class="octicon octicon-link"></span></a>0. <a href="https://arxiv.org/abs/2402.05133" rel="nofollow">Personalized Language Modeling from Personalized Human Feedback</a> <a id="user-content-link0"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05133
+<strong>Authors:</strong> Xinyu Li, Zachary C. Lipton, Liu Leqi</p>
+<p><strong>Abstract:</strong> Reinforcement Learning from Human Feedback (RLHF) is the current dominating framework to fine-tune large language models to better align with human preferences. However, the underlying premise of algorithms developed under this framework can be problematic when user preferences encoded in human feedback are diverse. In this work, we aim to address this problem by developing methods for building personalized language models. We first formally introduce the task of learning from personalized human feedback and explain why vanilla RLHF can be problematic in this context. We then propose a general Personalized-RLHF (P-RLHF) framework, which requires one to jointly learn a user model and a language (or reward) model. The user model takes in user information and outputs user representations. Its structure encodes our assumptions about user preferences underlying the feedback data. We develop new learning objectives for personalized reward modeling and personalized Direct Preference Optimization. To demonstrate the efficacy of our method, we test it on real-world text summarization data with annotated preferences and annotator information. We fine-tune GPT-J 6B to obtain personalized language (and reward) models, which outperform non-personalized models in terms of aligning with individual preferences.</p>
+<p><strong>Comment:</strong> This paper is relevant as it discusses a new framework, Personalized-RLHF (P-RLHF), which is a methodological improvement to RLHF for fine-tuning language models to better align with individual human preferences, matching criterion 1.
+<strong>Relevance:</strong> 9
+<strong>Novelty:</strong> 7</p>
+<hr>
+<h2><a id="user-content-1-a-closer-look-at-the-limitations-of-instruction-tuning-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#1-a-closer-look-at-the-limitations-of-instruction-tuning-"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. <a href="https://arxiv.org/abs/2402.05119" rel="nofollow">A Closer Look at the Limitations of Instruction Tuning</a> <a id="user-content-link1"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05119
+<strong>Authors:</strong> Sreyan Ghosh, Chandra Kiran Reddy Evuru, Sonal Kumar, Ramaneswaran S, Deepali Aneja, Zeyu Jin, Ramani Duraiswami, Dinesh Manocha</p>
+<p><strong>Abstract:</strong> Instruction Tuning (IT), the process of training large language models (LLMs) using instruction-response pairs, has emerged as the predominant method for transforming base pre-trained LLMs into open-domain conversational agents. While IT has achieved notable success and widespread adoption, its limitations and shortcomings remain underexplored. In this paper, through rigorous experiments and an in-depth analysis of the changes LLMs undergo through IT, we reveal various limitations of IT. In particular, we show that (1) IT fails to enhance knowledge or skills in LLMs. LoRA fine-tuning is limited to learning response initiation and style tokens, and full-parameter fine-tuning leads to knowledge degradation. (2) Copying response patterns from IT datasets derived from knowledgeable sources leads to a decline in response quality. (3) Full-parameter fine-tuning increases hallucination by inaccurately borrowing tokens from conceptually similar instances in the IT dataset for generating responses. (4) Popular methods to improve IT do not lead to performance improvements over a simple LoRA fine-tuned model. Our findings reveal that responses generated solely from pre-trained knowledge consistently outperform responses by models that learn any form of new knowledge from IT on open-source datasets. We hope the insights and challenges revealed inspire future work.</p>
+<p><strong>Comment:</strong> The paper takes a critical look at the limitations of Instruction Tuning, which is relevant to criterion 1 as it analyzes and reveals various limitations of instruction-following in language models.
+<strong>Relevance:</strong> 8
+<strong>Novelty:</strong> 6</p>
+<hr>
+<h2><a id="user-content-2-in-context-principle-learning-from-mistakes-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#2-in-context-principle-learning-from-mistakes-"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. <a href="https://arxiv.org/abs/2402.05403" rel="nofollow">In-Context Principle Learning from Mistakes</a> <a id="user-content-link2"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05403
+<strong>Authors:</strong> Tianjun Zhang, Aman Madaan, Luyu Gao, Steven Zheng, Swaroop Mishra, Yiming Yang, Niket Tandon, Uri Alon</p>
+<p><strong>Abstract:</strong> In-context learning (ICL, also known as few-shot prompting) has been the standard method of adapting LLMs to downstream tasks, by learning from a few input-output examples. Nonetheless, all ICL-based approaches only learn from correct input-output pairs. In this paper, we revisit this paradigm, by learning more from the few given input-output examples. We introduce Learning Principles (LEAP): First, we intentionally induce the model to make mistakes on these few examples; then we reflect on these mistakes, and learn explicit task-specific "principles" from them, which help solve similar problems and avoid common mistakes; finally, we prompt the model to answer unseen test questions using the original few-shot examples and these learned general principles. We evaluate LEAP on a wide range of benchmarks, including multi-hop question answering (Hotpot QA), textual QA (DROP), Big-Bench Hard reasoning, and math problems (GSM8K and MATH); in all these benchmarks, LEAP improves the strongest available LLMs such as GPT-3.5-turbo, GPT-4, GPT-4 turbo and Claude-2.1. For example, LEAP improves over the standard few-shot prompting using GPT-4 by 7.5% in DROP, and by 3.3% in HotpotQA. Importantly, LEAP does not require any more input or examples than the standard few-shot prompting settings.</p>
+<p><strong>Comment:</strong> Relevant to criterion 1 as it introduces a new approach to in-context learning by learning from mistakes, which is a specific fine-tuning step for improving instruction-following.
+<strong>Relevance:</strong> 7
+<strong>Novelty:</strong> 6</p>
+<hr>
+<h2><a id="user-content-3-a-survey-on-data-selection-for-llm-instruction-tuning-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#3-a-survey-on-data-selection-for-llm-instruction-tuning-"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. <a href="https://arxiv.org/abs/2402.05123" rel="nofollow">A Survey on Data Selection for LLM Instruction Tuning</a> <a id="user-content-link3"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05123
+<strong>Authors:</strong> Jiahao Wang, Bolin Zhang, Qianlong Du, Jiajun Zhang, Dianhui Chu</p>
+<p><strong>Abstract:</strong> Instruction tuning is a vital step of training large language models (LLM), so how to enhance the effect of instruction tuning has received increased attention. Existing works indicate that the quality of the dataset is more crucial than the quantity during instruction tuning of LLM. Therefore, recently a lot of studies focus on exploring the methods of selecting high-quality subset from instruction datasets, aiming to reduce training costs and enhance the instruction-following capabilities of LLMs. This paper presents a comprehensive survey on data selection for LLM instruction tuning. Firstly, we introduce the wildly used instruction datasets. Then, we propose a new taxonomy of the data selection methods and provide a detailed introduction of recent advances,and the evaluation strategies and results of data selection methods are also elaborated in detail. Finally, we emphasize the open challenges and present new frontiers of this task.</p>
+<p><strong>Comment:</strong> Matches criterion 1 as it discusses instruction tuning for LLMs and data selection methods to enhance instruction-following capabilities.
+<strong>Relevance:</strong> 8
+<strong>Novelty:</strong> 5</p>
+<hr>
+<h2><a id="user-content-4-permute-and-flip-an-optimally-robust-and-watermarkable-decoder-for-llms-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#4-permute-and-flip-an-optimally-robust-and-watermarkable-decoder-for-llms-"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. <a href="https://arxiv.org/abs/2402.05864" rel="nofollow">Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs</a> <a id="user-content-link4"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05864
+<strong>Authors:</strong> Xuandong Zhao, Lei Li, Yu-Xiang Wang</p>
+<p><strong>Abstract:</strong> In this paper, we propose a new decoding method called Permute-and-Flip (PF) decoder. It enjoys robustness properties similar to the standard sampling decoder, but is provably up to 2x better in its quality-robustness tradeoff than sampling and never worse than any other decoder. We also design a cryptographic watermarking scheme analogous to Aaronson's Gumbel watermark, but naturally tailored for PF decoder. The watermarking scheme does not change the distribution to sample, while allowing arbitrarily low false positive rate and high recall whenever the generated text has high entropy. Our experiments show that the PF decoder (and its watermarked counterpart) significantly outperform(s) naive sampling (and it's Gumbel watermarked counterpart) in terms of perplexity, while retaining the same robustness (and detectability), hence making it a promising new approach for LLM decoding. The code is available at <a href="https://github.com/XuandongZhao/pf-decoding">https://github.com/XuandongZhao/pf-decoding</a></p>
+<p><strong>Comment:</strong> This paper does not match the specified criteria closely as it proposes a new decoding method for language models, which is not directly related to any of the criteria but may be of general interest.
+<strong>Relevance:</strong> 3
+<strong>Novelty:</strong> 5</p>
+<hr>
+<h2><a id="user-content-5-noisyicl-a-little-noise-in-model-parameters-calibrates-in-context-learning-" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#5-noisyicl-a-little-noise-in-model-parameters-calibrates-in-context-learning-"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. <a href="https://arxiv.org/abs/2402.05515" rel="nofollow">NoisyICL: A Little Noise in Model Parameters Calibrates In-context Learning</a> <a id="user-content-link5"></a>
+</h2>
+<p><strong>ArXiv ID:</strong> 2402.05515
+<strong>Authors:</strong> Yufeng Zhao, Yoshihiro Sakai, Naoya Inoue</p>
+<p><strong>Abstract:</strong> In-Context Learning (ICL) is suffering from unsatisfactory performance and under-calibration due to high prior bias and unfaithful confidence. Some previous works fine-tuned language models for better ICL performance with enormous datasets and computing costs. In this paper, we propose NoisyICL, simply perturbing the model parameters by random noises to strive for better performance and calibration. Our experiments on 2 models and 12 downstream datasets show that NoisyICL can help ICL produce more accurate predictions. Our further analysis indicates that NoisyICL enables the model to provide more fair predictions, and also with less unfaithful confidence. Therefore, we believe that NoisyICL is an effective calibration of ICL. Our experimental code is uploaded to Github.</p>
+<p><strong>Comment:</strong> Not a direct match to the specified criteria, but related to improving in-context learning performance which is a fine-tuning step for language models.
+<strong>Relevance:</strong> 4
+<strong>Novelty:</strong> 4</p>
+<hr>
+<hr>
+<h2><a id="user-content-paper-selection-prompt" class="anchor" aria-hidden="true" tabindex="-1" href="https://tatsu-lab.github.io/gpt_paper_assistant/#paper-selection-prompt"><span aria-hidden="true" class="octicon octicon-link"></span></a>Paper selection prompt</h2>
+<ol>
+<li>New methodological improvements to RLHF or instruction-following which are specific fine-tuning steps that are taken to make language models better at following user instructions across a range of tasks.
+<ul>
+<li>Relevant: papers that discuss specific methods like RLHF, or instruction-tuning datasets, improving these methods, or analyzing them. Usually these papers will explicitly mention RLHF, instruction-following or instruction-tuning.</li>
+<li>Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.</li>
+</ul>
+</li>
+<li>Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
+<ul>
+<li>Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.</li>
+<li>Not relevant: any papers that do not consider language models, or that do not consider test set contamination.</li>
+</ul>
+</li>
+<li>Shows a significant advance in the performance of diffusion language models.
+<ul>
+<li>Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.</li>
+<li>Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.</li>
+</ul>
+</li>
+<li>Describes new paradigms to evaluating open-ended text generation. Evaluating the outputs of language models is hard, especially in open-ended settings like for chatbots.
+<ul>
+<li>Relevant: papers that fundamentally rethink language model evaluation -- especially by accounting for subjectivity or using adversaries.</li>
+<li>Not relevant: specific evaluations for specific tasks, identifying new properties or flaws of language models, or simply collecting new data.</li>
+</ul>
+</li>
+<li>Conducts surveys or provides data into real-world usage and safety properties of language models.
+<ul>
+<li>Relevant: papers that create new datasets or surveys on real-world usage of language models.</li>
+<li>Not relevant: papers that apply language models to new real-world tasks.</li>
+</ul>
+</li>
+<li>Studies 'scaling laws' in the context of neural networks. Scaling laws refer to the very clear power-law relationship between the size or computational power used to train a model and the performance of that model.
+<ul>
+<li>Relevant: theoretical or conceptual explanation behind scaling laws for language models.</li>
+<li>Not relevant: papers that have experiments at different model scales (but do not explicitly fit a scaling law) or papers that mention scaling laws, but the scaling laws are not the central subject of the paper</li>
+</ul>
+</li>
+</ol>
+<p>In suggesting papers to your friend, remember that he enjoys papers on statistical machine learning, and generative modeling in natural language processing.
+Your friend also likes learning about surprising empirical results in language models, as well as clever statistical tricks.
+He does not want to read papers that are about primarily applications of methods to specific domains.</p>
+</div></div><div class="footer container-xl width-full p-responsive"><div class="position-relative flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-4 pb-4 mt-6 f6 color-text-secondary border-top color-border-secondary text-center"><div class="footer-octicon d-lg-block mx-lg-4"><a title="tatsu-lab/gpt_paper_assistant" href="https://github.com/tatsu-lab/gpt_paper_assistant" target="_blank" rel="noreferrer noopener"><svg class="octicon octicon-mark-github gh-logo" width="36" height="36" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"></path></svg></a></div><span class="mt-2 d-block footprint"><span>powered by </span><a href="https://github.com/wranders/markdown-to-pages-action" target="_blank" rel="noreferrer noopener">markdown-to-pages-action</a></span></div></div></body></html>
